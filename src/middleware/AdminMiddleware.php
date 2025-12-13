@@ -1,0 +1,3 @@
+<?php
+// Middleware: AdminMiddleware.php
+?>

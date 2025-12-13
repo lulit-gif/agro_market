@@ -1,0 +1,3 @@
+<?php
+// Controller: ProductController.php
+?>

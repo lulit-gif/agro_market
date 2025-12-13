@@ -1,0 +1,3 @@
+<?php
+// Product details page
+?>
