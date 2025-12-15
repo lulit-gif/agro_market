@@ -11,7 +11,7 @@
 	<label>Image:
 		<input type="file" name="image">
 	</label>
-	<button type="submit">Create product</button>
+	<button type="submit">create product</button>
 </form>
 
 <?php require __DIR__ . '/../layout/footer.php'; ?>
