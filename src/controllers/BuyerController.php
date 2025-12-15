@@ -3,20 +3,20 @@
  * BuyerController
  *
  * Responsibilities:
- * - Handle buyer account pages: profile view/edit, address and contact details.
- * - Manage buyer-specific views of products: browsing history, saved items/wishlist.
- * - Show buyer orders: list, detail view, order status tracking.
- * - Support account actions: update password, notification preferences, delete/deactivate account.
- * - Coordinate with CartController and CheckoutController for a smooth buying flow.
+ * -Handle buyer account pages: profile view/edit, address and contact details.
+ * -Manage buyer-specific views of products: browsing history, saved items/wishlist.
+ * -Show buyer orders: list, detail view, order status tracking.
+ * -Support account actions: update password, notification preferences, delete/deactivate account.
+ * -Coordinate with CartController and CheckoutController for a smooth buying flow.
  */
 
 /**
  * BuyerController
  *
  * Basic buyer features:
- * - Show buyer profile.
- * - Edit basic profile data.
- * - List buyer orders.
+ * -Show buyer profile.
+ * -Edit basic profile data.
+ * -List buyer orders.
  */
 
 require_once __DIR__ . '/../config/database.php';

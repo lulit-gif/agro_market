@@ -3,9 +3,9 @@
  * FarmerController
  *
  * Responsibilities:
- * - Handle farmer account pages: profile, farm details, verification status.
- * - Manage farmer products: create, edit, publish/unpublish, and delete listings.
- * - Show sales dashboard: orders for the farmer’s products, revenue, stock status.
+ * -Handle farmer account pages: profile, farm details, verification status.
+ * -Manage farmer products: create, edit, publish/unpublish, and delete listings.
+ * -Show sales dashboard: orders for the farmer’s products, revenue, stock status.
  * - Manage inventory: update stock, pricing, and product availability.
  * - Respond to buyer inquiries related to the farmer’s products (if messaging exists).
  */

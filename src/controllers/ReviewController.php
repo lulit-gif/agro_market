@@ -3,11 +3,11 @@
  * ReviewController
  *
  * Responsibilities:
- * - Handle creation of reviews and ratings for products (and optionally farmers).
- * - Validate that only eligible buyers (who purchased) can review.
- * - Display product reviews and average ratings on product detail pages.
- * - Allow buyers to edit or delete their own reviews when permitted.
- * - Provide moderation tools (for admins) to hide or remove inappropriate reviews.
+ * -Handle creation of reviews and ratings for products (and optionally farmers).
+ * -Validate that only eligible buyers (who purchased) can review.
+ * -Display product reviews and average ratings on product detail pages.
+ * -Allow buyers to edit or delete their own reviews when permitted.
+ * -Provide moderation tools (for admins) to hide or remove inappropriate reviews.
  */
 
 require_once __DIR__ . '/../models/Review.php';

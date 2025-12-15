@@ -3,11 +3,11 @@
  * HomeController
  *
  * Responsibilities:
- * - Render public-facing pages: home page, landing sections, and general information.
- * - Show featured products, categories, and promotional content.
- * - Provide search entry points and basic filtering for products.
- * - Handle static pages: about, contact, FAQ, terms, and privacy policy.
- * - Optionally provide basic SEO-related data for main pages.
+ * -Render public-facing pages: home page, landing sections, and general information.
+ * -Show featured products, categories, and promotional content.
+ * -Provide search entry points and basic filtering for products.
+ * -Handle static pages: about, contact, FAQ, terms, and privacy policy.
+ * -Optionally provide basic SEO-related data for main pages.
  */
 
 

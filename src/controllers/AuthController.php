@@ -5,7 +5,7 @@ require_once __DIR__ . '/../services/EmailService.php';
 
 class AuthController
 {
-	// Show forgot password form (view handles token removal from URL if needed)
+	//Show forgot password form (view handles token removal from URL if needed)
 	public static function showForgotForm()
 	{
 		/*

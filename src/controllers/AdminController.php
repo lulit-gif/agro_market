@@ -3,12 +3,12 @@
  * AdminController
  *
  * Responsibilities:
- * - Handle admin authentication (login, logout, access control).
- * - Manage users (buyers, farmers, admins): list, create, edit, deactivate/activate accounts.
- * - Manage products globally: approve/reject farmer products, edit or remove listings.
- * - View and manage orders: monitor all orders, update status, handle escalated issues.
- * - Access dashboards: show platform statistics (sales, users, products, reviews).
- * - Manage site settings: global configuration, categories, payment and delivery settings.
+ * -Handle admin authentication (login, logout, access control).
+ * -Manage users (buyers, farmers, admins): list, create, edit, deactivate/activate accounts.
+ * -Manage products globally: approve/reject farmer products, edit or remove listings.
+ * -View and manage orders: monitor all orders, update status, handle escalated issues.
+ * -Access dashboards: show platform statistics (sales, users, products, reviews).
+ * -Manage site settings: global configuration, categories, payment and delivery settings.
  */
 
 
@@ -16,9 +16,9 @@
  * AdminController
  *
  * Basic admin features:
- * - Admin login and logout.
- * - Protect an admin dashboard.
- * - Show simple links to manage users and products.
+ * -Admin login and logout.
+ * -Protect an admin dashboard.
+ * -Show simple links to manage users and products.
  */
 
 require_once __DIR__ . '/../config/database.php';

@@ -3,11 +3,11 @@
  * ProductController
  *
  * Responsibilities:
- * - Display product lists with filtering, sorting, and pagination.
- * - Show product detail pages with descriptions, images, price, and availability.
- * - Handle product search by keyword, category, location, or other filters.
- * - Coordinate with FarmerController and AdminController for product management actions.
- * - Expose product data to CartController for adding items to cart.
+ * -Display product lists with filtering, sorting, and pagination.
+ * -Show product detail pages with descriptions, images, price, and availability.
+ * -Handle product search by keyword, category, location, or other filters.
+ * -Coordinate with FarmerController and AdminController for product management actions.
+ * -Expose product data to CartController for adding items to cart.
  */
 
 

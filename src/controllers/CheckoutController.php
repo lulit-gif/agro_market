@@ -3,11 +3,11 @@
  * CheckoutController
  *
  * Responsibilities:
- * - Handle the checkout process from cart to order creation.
- * - Collect and validate shipping details, billing details, and contact info.
- * - Integrate with payment gateway: create payment intent, handle callbacks/responses.
- * - Create and store orders in the database when payment succeeds.
- * - Show order confirmation page and handle checkout failures or cancellations.
+ * -Handle the checkout process from cart to order creation.
+ * -Collect and validate shipping details, billing details, and contact info.
+ * -Integrate with payment gateway: create payment intent, handle callbacks/responses.
+ * -Create and store orders in the database when payment succeeds.
+ * -Show order confirmation page and handle checkout failures or cancellations.
  */
 
 
