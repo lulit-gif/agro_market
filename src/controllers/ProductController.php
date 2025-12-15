@@ -15,9 +15,9 @@
  * ProductController
  *
  * Basic product features:
- * - List all products.
- * - Show a single product detail page.
- * - Simple search by keyword.
+ * -List all products.
+ * -Show a single product detail page.
+ * -Simple search by keyword.
  */
 
 require_once __DIR__ . '/../config/database.php';
