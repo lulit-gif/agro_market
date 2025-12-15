@@ -1,5 +1,5 @@
 <?php
-// Admin page: manage-products.php
+// Admin page: manage-products like create,edit and delete
 ?>
 <?php require __DIR__ . '/../layout/header.php'; ?>
 
