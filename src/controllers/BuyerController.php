@@ -3,7 +3,7 @@
  * BuyerController
  *
  * Responsibilities:
- * -Handle buyer account pages: profile view/edit, address and contact details.
+ * - Handle buyer account pages: profile view/edit, address and contact details.
  * -Manage buyer-specific views of products: browsing history, saved items/wishlist.
  * -Show buyer orders: list, detail view, order status tracking.
  * -Support account actions: update password, notification preferences, delete/deactivate account.
