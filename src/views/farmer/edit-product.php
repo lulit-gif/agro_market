@@ -1,5 +1,5 @@
 <?php require __DIR__ . '/../layout/header.php'; ?>
-
+//change of products and price
 <h1>Edit Product</h1>
 <form method="POST" action="edit-product.php" enctype="multipart/form-data">
 	<label>Title:
