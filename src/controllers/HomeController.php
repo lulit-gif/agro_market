@@ -15,8 +15,8 @@
  * HomeController
  *
  * Basic home features:
- * - Show home page with a welcome message and a few products.
- * - Show simple static pages: about and contact.
+ * -Show home page with a welcome message and a few products.
+ * -Show simple static pages: about and contact.
  */
 
 require_once __DIR__ . '/../config/database.php';
