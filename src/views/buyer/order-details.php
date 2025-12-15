@@ -1,5 +1,5 @@
 <?php require __DIR__ . '/../layout/header.php'; ?>
-
+//buyer:page
 <h1>Order Details</h1>
 <p>Details for order #<strong>12345</strong> (placeholder).</p>
 
