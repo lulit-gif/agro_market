@@ -5,9 +5,9 @@
  * Responsibilities:
  * -Manage the shopping cart for the current user or session.
  * -Add products to cart, update quantities, and remove items.
- * - Calculate cart totals: item subtotals, discounts, taxes, and grand total.
- * - Validate product availability and stock before checkout.
- * - Provide cart summary views for use in headers, sidebars, and checkout pages.
+ * -Calculate cart totals: item subtotals, discounts, taxes, and grand total.
+ * -Validate product availability and stock before checkout.
+ * -Provide cart summary views for use in headers, sidebars, and checkout pages.
  */
 
 /**
