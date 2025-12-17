@@ -1,0 +1,219 @@
+/* ============================================================================
+   AGRO MARKET - Home & Products Shared Styles
+   ============================================================================ */
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--text-brown) 0%, #6d4c41 100%);
+  color: var(--white);
+  padding: 60px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 500px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  z-index: 0;
+}
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: var(--white);
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.searchbar {
+  display: flex;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+.searchbar input[type="text"] {
+  flex: 1;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--white);
+  font-size: 16px;
+}
+.searchbar button {
+  padding: 14px 24px;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.trust-row {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+/* Section Headers */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 30px;
+}
+.section-header h2 {
+  margin: 0;
+}
+.section-header a {
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+/* Home Grids */
+.grid {
+  display: grid;
+  gap: 20px;
+}
+.grid.auto {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.grid.cat-grid {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.grid.steps-grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+.grid.testimonials-grid {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/* Category Cards */
+.category-card {
+  background-color: var(--white);
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+.category-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.category-emoji {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+.category-card h3 {
+  margin: 0;
+  color: var(--text-brown);
+}
+
+/* Homepage Product Cards (featured/latest) */
+.card-media {
+  height: 160px;
+  background: linear-gradient(135deg, var(--bg-cream) 0%, #ffe0b2 100%);
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  margin: -24px -24px 16px -24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-title {
+  color: var(--text-brown);
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.card-body {
+  padding: 0;
+}
+.price {
+  color: var(--accent-dark);
+  font-weight: 800;
+  font-size: 18px;
+  margin: 8px 0;
+}
+.card-actions {
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+/* Testimonials */
+.testimonial {
+  background-color: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 24px;
+  font-style: italic;
+}
+.testimonial blockquote {
+  margin: 0 0 12px;
+  color: var(--text-brown);
+}
+.testimonial figcaption {
+  color: var(--muted);
+  font-size: 14px;
+  font-style: normal;
+}
+
+/* Empty State */
+.empty {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--muted);
+}
+
+/* Sections */
+.section {
+  padding: 48px 24px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .searchbar {
+    flex-direction: column;
+  }
+  .hero-actions {
+    flex-direction: column;
+  }
+  .trust-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .grid.auto {
+    grid-template-columns: 1fr;
+  }
+}
