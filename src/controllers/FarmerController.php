@@ -1,3 +1,0 @@
-<?php
-// Controller: FarmerController.php
-?>

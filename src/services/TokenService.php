@@ -1,3 +1,0 @@
-<?php
-// Service: TokenService.php
-?>

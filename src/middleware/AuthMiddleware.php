@@ -1,3 +1,0 @@
-<?php
-// Middleware: AuthMiddleware.php
-?>

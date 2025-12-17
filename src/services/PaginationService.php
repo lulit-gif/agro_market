@@ -1,3 +1,0 @@
-<?php
-// Service: PaginationService.php
-?>

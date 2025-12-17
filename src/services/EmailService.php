@@ -1,3 +1,0 @@
-<?php
-// Service: EmailService.php
-?>

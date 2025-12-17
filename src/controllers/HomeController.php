@@ -1,3 +1,0 @@
-<?php
-// Controller: HomeController.php
-?>

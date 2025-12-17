@@ -1,3 +1,0 @@
-<?php
-// Controller: ReviewController.php
-?>

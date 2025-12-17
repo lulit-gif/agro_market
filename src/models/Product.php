@@ -1,3 +1,0 @@
-<?php
-// Model: Product.php
-?>
