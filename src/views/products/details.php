@@ -10,7 +10,7 @@ require __DIR__ . '/../layout/header.php';
     <?php if (!empty($product)): ?>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;">
             
-            <!-- PRODUCT IMAGE -->
+            <!-- PRODUCT IMAGE page -->
             <div style="background: linear-gradient(135deg, var(--bg-cream) 0%, #ffe0b2 100%); border-radius: 8px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; overflow: hidden;">
                 <?php if (!empty($product['image'])): ?>
                     <img src="/img/products/<?php echo htmlspecialchars($product['image']); ?>" alt="<?php echo htmlspecialchars($product['name']); ?>" style="width: 100%; height: 100%; object-fit: cover;">
